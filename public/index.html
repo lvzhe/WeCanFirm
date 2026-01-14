@@ -3,7 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WeCan Law Firm | WeCan 律师事务所</title>
+    <title>WeCan Law Firm | Immigration & Injury Lawyers in West Covina</title>
+    <meta
+      name="description"
+      content="WeCan Law Firm is a bilingual legal team in West Covina, CA handling immigration, car accident, and civil litigation matters. Call +1 626-558-9420 for a consultation."
+    />
+    <meta
+      name="keywords"
+      content="WeCan Law Firm, West Covina lawyer, immigration attorney, car accident lawyer, civil litigation, bilingual law firm"
+    />
+    <link rel="canonical" href="https://wecanfirm.com" />
+    <meta property="og:title" content="WeCan Law Firm | West Covina" />
+    <meta
+      property="og:description"
+      content="Bilingual legal counsel for immigration, injury, and litigation. Call +1 626-558-9420."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://wecanfirm.com" />
     <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -11,13 +27,38 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LegalService",
+        "name": "WeCan Law Firm",
+        "url": "https://wecanfirm.com",
+        "telephone": "+1-626-558-9420",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "4141 S Nogales Street C102",
+          "addressLocality": "West Covina",
+          "addressRegion": "CA",
+          "postalCode": "91792",
+          "addressCountry": "US"
+        },
+        "areaServed": "West Covina, CA",
+        "availableLanguage": ["English", "Chinese"]
+      }
+    </script>
   </head>
   <body>
     <header class="site-header">
       <nav class="navbar">
         <div class="logo">
           <span>WeCan</span>
-          <small data-i18n="tagline">Focused Legal Advocacy</small>
+          <small data-i18n="tagline">Legal Counsel With Clarity</small>
+        </div>
+        <div class="nav-links">
+          <a href="#services" data-i18n="navServices">Services</a>
+          <a href="#process" data-i18n="navProcess">Process</a>
+          <a href="#faq" data-i18n="navFaq">FAQ</a>
+          <a href="#contact" data-i18n="navContact">Contact</a>
         </div>
         <div class="nav-actions">
           <a class="call-now" href="tel:+16265589420" data-i18n="call">Call: +1 626-558-9420</a>
@@ -29,24 +70,37 @@
     <main>
       <section class="hero">
         <div class="hero-content">
-          <p class="eyebrow" data-i18n="eyebrow">WeCan Law Firm · Immigration · Accident · Litigation</p>
-          <h1 data-i18n="heroTitle">A steady legal team for the moments that matter most</h1>
+          <p class="eyebrow" data-i18n="eyebrow">WeCan Law Firm · Immigration · Injury · Litigation</p>
+          <h1 data-i18n="heroTitle">Bilingual legal support for the cases that change lives</h1>
           <p class="hero-text" data-i18n="heroText">
-            WeCan Law Firm supports clients with immigration filings, car accident claims, and civil
-            disputes. Our bilingual attorneys answer quickly, explain clearly, and advocate with
-            professionalism at every step.
+            We help families, professionals, and accident victims navigate complex legal matters with
+            responsive guidance. Expect clear timelines, honest advice, and committed advocacy.
           </p>
           <div class="hero-actions">
             <a class="primary" href="tel:+16265589420" data-i18n="heroCta">Call for a Consultation</a>
-            <span class="secondary" data-i18n="heroNote">Same-day response · 中文服务</span>
+            <a class="secondary" href="#contact" data-i18n="heroSecondary">Visit our West Covina office</a>
+          </div>
+          <div class="hero-badges">
+            <div>
+              <strong data-i18n="badge1Title">Fast response</strong>
+              <span data-i18n="badge1Text">Same-day call backs</span>
+            </div>
+            <div>
+              <strong data-i18n="badge2Title">Bilingual team</strong>
+              <span data-i18n="badge2Text">English & 中文服务</span>
+            </div>
+            <div>
+              <strong data-i18n="badge3Title">Local support</strong>
+              <span data-i18n="badge3Text">West Covina, CA</span>
+            </div>
           </div>
         </div>
         <div class="hero-card">
-          <h2 data-i18n="cardTitle">Your Case, Handled With Care</h2>
+          <h2 data-i18n="cardTitle">Your consultation starts with real answers</h2>
           <ul>
-            <li data-i18n="cardPoint1">Direct attorney communication and clear timelines.</li>
-            <li data-i18n="cardPoint2">Strategic planning tailored to your goals.</li>
-            <li data-i18n="cardPoint3">Trusted advocacy for individuals and families.</li>
+            <li data-i18n="cardPoint1">We clarify your options and required documents.</li>
+            <li data-i18n="cardPoint2">You receive a structured plan and clear next steps.</li>
+            <li data-i18n="cardPoint3">We protect your rights and pursue fair outcomes.</li>
           </ul>
           <div class="card-contact">
             <p data-i18n="cardCall">Speak with a lawyer now:</p>
@@ -55,92 +109,141 @@
         </div>
       </section>
 
-      <section class="services">
+      <section class="services" id="services">
         <div class="section-header">
           <h2 data-i18n="servicesTitle">Practice Areas</h2>
           <p data-i18n="servicesSubtitle">
-            Comprehensive representation across immigration, accident recovery, and litigation matters.
+            Full-service legal representation for immigration, accident recovery, and civil litigation.
           </p>
         </div>
         <div class="service-grid">
           <article>
             <h3 data-i18n="service1Title">Immigration Law</h3>
             <p data-i18n="service1Text">
-              Family-based petitions, green cards, work visas, asylum, and status adjustments.
+              Family petitions, green cards, work authorization, asylum, and naturalization support.
             </p>
           </article>
           <article>
             <h3 data-i18n="service2Title">Car Accidents & Injury</h3>
             <p data-i18n="service2Text">
-              Medical bills, lost wages, and settlement negotiation for serious injuries.
+              Claims for medical expenses, lost wages, pain, and future care planning.
             </p>
           </article>
           <article>
             <h3 data-i18n="service3Title">Civil Litigation</h3>
             <p data-i18n="service3Text">
-              Contract disputes, business conflicts, and courtroom representation.
+              Business disputes, contract enforcement, and courtroom advocacy when negotiations stall.
             </p>
           </article>
           <article>
             <h3 data-i18n="service4Title">Criminal Defense</h3>
             <p data-i18n="service4Text">
-              Strategic defense to protect your record, immigration status, and reputation.
+              Strategic defense to protect your record, immigration status, and future opportunities.
+            </p>
+          </article>
+          <article>
+            <h3 data-i18n="service5Title">Personal Injury Claims</h3>
+            <p data-i18n="service5Text">
+              Slip and fall, workplace injuries, and insurance disputes handled with care.
+            </p>
+          </article>
+          <article>
+            <h3 data-i18n="service6Title">Family Protection</h3>
+            <p data-i18n="service6Text">
+              Guidance for families facing urgent legal deadlines or documentation challenges.
             </p>
           </article>
         </div>
       </section>
 
-      <section class="trust">
-        <div class="trust-content">
-          <h2 data-i18n="trustTitle">A Clear and Respectful Process</h2>
-          <p data-i18n="trustText">
-            We start with a careful review, explain options in plain language, and build a plan that
-            moves your case forward with confidence.
+      <section class="process" id="process">
+        <div class="process-content">
+          <h2 data-i18n="processTitle">A clear path from consultation to resolution</h2>
+          <p data-i18n="processText">
+            We prioritize transparency so you always know what is happening, what we need from you,
+            and how we are moving your case forward.
           </p>
-          <div class="highlight-box">
-            <p data-i18n="highlightTitle">Local, bilingual support</p>
-            <p data-i18n="highlightText">Visit our West Covina office or call anytime for guidance.</p>
+          <div class="process-highlight">
+            <p data-i18n="highlightTitle">Why clients call WeCan</p>
+            <p data-i18n="highlightText">
+              Responsive bilingual communication, detailed preparation, and respectful advocacy.
+            </p>
           </div>
         </div>
-        <div class="trust-steps">
+        <div class="process-steps">
           <div>
             <span>01</span>
             <h3 data-i18n="step1Title">Consultation</h3>
-            <p data-i18n="step1Text">We listen, assess urgency, and outline next steps.</p>
+            <p data-i18n="step1Text">We assess your facts, risks, and priorities.</p>
           </div>
           <div>
             <span>02</span>
             <h3 data-i18n="step2Title">Strategy</h3>
-            <p data-i18n="step2Text">Your attorney crafts a precise legal plan.</p>
+            <p data-i18n="step2Text">We outline a timeline, evidence, and action plan.</p>
           </div>
           <div>
             <span>03</span>
-            <h3 data-i18n="step3Title">Resolution</h3>
-            <p data-i18n="step3Text">We negotiate, litigate, and pursue results.</p>
+            <h3 data-i18n="step3Title">Advocacy</h3>
+            <p data-i18n="step3Text">We negotiate, file, and litigate with focus.</p>
+          </div>
+          <div>
+            <span>04</span>
+            <h3 data-i18n="step4Title">Resolution</h3>
+            <p data-i18n="step4Text">We pursue outcomes that protect your future.</p>
           </div>
         </div>
       </section>
 
-      <section class="contact">
+      <section class="cta-strip">
+        <div>
+          <h2 data-i18n="ctaTitle">Ready to protect your rights?</h2>
+          <p data-i18n="ctaText">Call now to discuss your case with a bilingual attorney.</p>
+        </div>
+        <a href="tel:+16265589420" class="cta-button" data-i18n="ctaButton">Call +1 626-558-9420</a>
+      </section>
+
+      <section class="faq" id="faq">
+        <div class="section-header">
+          <h2 data-i18n="faqTitle">Frequently Asked Questions</h2>
+          <p data-i18n="faqSubtitle">Answers to common questions about working with our firm.</p>
+        </div>
+        <div class="faq-grid">
+          <article>
+            <h3 data-i18n="faq1Title">Do you offer bilingual consultations?</h3>
+            <p data-i18n="faq1Text">Yes. We provide service in English and Chinese.</p>
+          </article>
+          <article>
+            <h3 data-i18n="faq2Title">What should I bring to my consultation?</h3>
+            <p data-i18n="faq2Text">Any documents, timelines, or notices related to your case.</p>
+          </article>
+          <article>
+            <h3 data-i18n="faq3Title">How quickly can I speak to an attorney?</h3>
+            <p data-i18n="faq3Text">We prioritize fast callbacks and urgent matters.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
         <div class="section-header">
           <h2 data-i18n="contactTitle">Contact WeCan Law Firm</h2>
-          <p data-i18n="contactSubtitle">Reach us by phone or visit our office in West Covina.</p>
+          <p data-i18n="contactSubtitle">Call, visit, or start your consultation today.</p>
         </div>
         <div class="contact-grid">
           <div>
             <h3 data-i18n="contactPhoneTitle">Phone</h3>
             <a class="contact-link" href="tel:+16265589420">+1 626-558-9420</a>
-            <p data-i18n="contactPhoneNote">We answer quickly and keep you informed.</p>
+            <p data-i18n="contactPhoneNote">Quick response for urgent legal needs.</p>
           </div>
           <div>
             <h3 data-i18n="contactWebTitle">Website</h3>
             <p class="contact-link">wecanfirm.com</p>
-            <p data-i18n="contactWebNote">Start your case review online or by phone.</p>
+            <p data-i18n="contactWebNote">Trusted legal guidance across Southern California.</p>
           </div>
           <div>
             <h3 data-i18n="contactOfficeTitle">Office</h3>
             <p class="contact-link">4141 S Nogales Street C102</p>
             <p class="contact-link">West Covina, CA 91792</p>
+            <p data-i18n="contactOfficeNote">Easy access with nearby parking.</p>
           </div>
         </div>
       </section>
@@ -154,6 +257,7 @@
       <div class="footer-contact">
         <p data-i18n="footerCall">Call us anytime:</p>
         <a href="tel:+16265589420">+1 626-558-9420</a>
+        <p class="footer-address">4141 S Nogales Street C102, West Covina CA 91792</p>
       </div>
     </footer>
 
