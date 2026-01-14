@@ -12,6 +12,7 @@
       name="keywords"
       content="WeCan Law Firm, West Covina lawyer, immigration attorney, car accident lawyer, civil litigation, bilingual law firm"
     />
+    <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://wecanfirm.com" />
     <meta property="og:title" content="WeCan Law Firm | West Covina" />
     <meta
@@ -20,6 +21,11 @@
     />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://wecanfirm.com" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="WeCan Law Firm" />
+    <meta name="twitter:card" content="summary" />
+    <link rel="alternate" href="https://wecanfirm.com" hreflang="en" />
+    <link rel="alternate" href="https://wecanfirm.com" hreflang="zh" />
     <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -43,12 +49,20 @@
           "addressCountry": "US"
         },
         "areaServed": "West Covina, CA",
-        "availableLanguage": ["English", "Chinese"]
+        "availableLanguage": ["English", "Chinese"],
+        "priceRange": "$$",
+        "slogan": "Clear legal guidance in English and Chinese"
       }
     </script>
   </head>
   <body>
+    <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
     <header class="site-header">
+      <div class="top-bar">
+        <p data-i18n="topBar">
+          West Covina bilingual legal support · Call +1 626-558-9420
+        </p>
+      </div>
       <nav class="navbar">
         <div class="logo">
           <span>WeCan</span>
@@ -56,6 +70,7 @@
         </div>
         <div class="nav-links">
           <a href="#services" data-i18n="navServices">Services</a>
+          <a href="#advantages" data-i18n="navAdvantages">Why WeCan</a>
           <a href="#process" data-i18n="navProcess">Process</a>
           <a href="#faq" data-i18n="navFaq">FAQ</a>
           <a href="#contact" data-i18n="navContact">Contact</a>
@@ -67,14 +82,14 @@
       </nav>
     </header>
 
-    <main>
+    <main id="main">
       <section class="hero">
         <div class="hero-content">
           <p class="eyebrow" data-i18n="eyebrow">WeCan Law Firm · Immigration · Injury · Litigation</p>
-          <h1 data-i18n="heroTitle">Bilingual legal support for the cases that change lives</h1>
+          <h1 data-i18n="heroTitle">Bilingual legal support that protects your future</h1>
           <p class="hero-text" data-i18n="heroText">
-            We help families, professionals, and accident victims navigate complex legal matters with
-            responsive guidance. Expect clear timelines, honest advice, and committed advocacy.
+            We guide clients through immigration matters, auto accidents, and civil disputes with
+            clear plans and direct communication. Call today to speak with a West Covina attorney.
           </p>
           <div class="hero-actions">
             <a class="primary" href="tel:+16265589420" data-i18n="heroCta">Call for a Consultation</a>
@@ -152,6 +167,29 @@
             <p data-i18n="service6Text">
               Guidance for families facing urgent legal deadlines or documentation challenges.
             </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="advantages" id="advantages">
+        <div class="section-header">
+          <h2 data-i18n="advantagesTitle">Why clients choose WeCan</h2>
+          <p data-i18n="advantagesSubtitle">
+            We combine legal experience with attentive, bilingual guidance for every step of your case.
+          </p>
+        </div>
+        <div class="advantages-grid">
+          <article>
+            <h3 data-i18n="advantage1Title">Clear communication</h3>
+            <p data-i18n="advantage1Text">We explain options, timelines, and risks in plain language.</p>
+          </article>
+          <article>
+            <h3 data-i18n="advantage2Title">Case-focused strategy</h3>
+            <p data-i18n="advantage2Text">Every plan is built around your goals and legal priorities.</p>
+          </article>
+          <article>
+            <h3 data-i18n="advantage3Title">Responsive support</h3>
+            <p data-i18n="advantage3Text">Expect timely updates and bilingual answers.</p>
           </article>
         </div>
       </section>
@@ -260,6 +298,8 @@
         <p class="footer-address">4141 S Nogales Street C102, West Covina CA 91792</p>
       </div>
     </footer>
+
+    <a class="mobile-call" href="tel:+16265589420" data-i18n="mobileCall">Call +1 626-558-9420</a>
 
     <script src="script.js"></script>
   </body>

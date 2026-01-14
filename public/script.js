@@ -1,15 +1,18 @@
 const translations = {
   en: {
+    skip: "Skip to content",
+    topBar: "West Covina bilingual legal support · Call +1 626-558-9420",
     tagline: "Legal Counsel With Clarity",
     navServices: "Services",
+    navAdvantages: "Why WeCan",
     navProcess: "Process",
     navFaq: "FAQ",
     navContact: "Contact",
     call: "Call: +1 626-558-9420",
     eyebrow: "WeCan Law Firm · Immigration · Injury · Litigation",
-    heroTitle: "Bilingual legal support for the cases that change lives",
+    heroTitle: "Bilingual legal support that protects your future",
     heroText:
-      "We help families, professionals, and accident victims navigate complex legal matters with responsive guidance. Expect clear timelines, honest advice, and committed advocacy.",
+      "We guide clients through immigration matters, auto accidents, and civil disputes with clear plans and direct communication. Call today to speak with a West Covina attorney.",
     heroCta: "Call for a Consultation",
     heroSecondary: "Visit our West Covina office",
     badge1Title: "Fast response",
@@ -41,6 +44,15 @@ const translations = {
     service5Text: "Slip and fall, workplace injuries, and insurance disputes handled with care.",
     service6Title: "Family Protection",
     service6Text: "Guidance for families facing urgent legal deadlines or documentation challenges.",
+    advantagesTitle: "Why clients choose WeCan",
+    advantagesSubtitle:
+      "We combine legal experience with attentive, bilingual guidance for every step of your case.",
+    advantage1Title: "Clear communication",
+    advantage1Text: "We explain options, timelines, and risks in plain language.",
+    advantage2Title: "Case-focused strategy",
+    advantage2Text: "Every plan is built around your goals and legal priorities.",
+    advantage3Title: "Responsive support",
+    advantage3Text: "Expect timely updates and bilingual answers.",
     processTitle: "A clear path from consultation to resolution",
     processText:
       "We prioritize transparency so you always know what is happening, what we need from you, and how we are moving your case forward.",
@@ -74,19 +86,23 @@ const translations = {
     contactOfficeTitle: "Office",
     contactOfficeNote: "Easy access with nearby parking.",
     footerText: "Professional legal counsel for immigrants, families, and injured clients.",
-    footerCall: "Call us anytime:"
+    footerCall: "Call us anytime:",
+    mobileCall: "Call +1 626-558-9420"
   },
   zh: {
+    skip: "跳至内容",
+    topBar: "西科汶纳双语法律支持 · 致电 +1 626-558-9420",
     tagline: "清晰专业的法律服务",
     navServices: "服务领域",
+    navAdvantages: "选择 WeCan",
     navProcess: "服务流程",
     navFaq: "常见问题",
     navContact: "联系咨询",
     call: "咨询电话：+1 626-558-9420",
     eyebrow: "WeCan 律师事务所 · 移民 · 伤害 · 诉讼",
-    heroTitle: "为关键案件提供双语法律支持",
+    heroTitle: "双语法律支持，守护您的未来",
     heroText:
-      "我们协助家庭、专业人士与事故受害者应对复杂法律事务，提供及时回应、清晰流程与专业代理。",
+      "我们协助客户处理移民、车祸与民事纠纷，提供清晰方案与直接沟通。欢迎致电西科汶纳律师咨询。",
     heroCta: "立即电话咨询",
     heroSecondary: "欢迎到访西科汶纳办公室",
     badge1Title: "快速响应",
@@ -114,9 +130,17 @@ const translations = {
     service5Text: "滑倒、工伤与保险争议等案件代理。",
     service6Title: "家庭权益保护",
     service6Text: "协助家庭应对紧急期限与文件需求。",
+    advantagesTitle: "客户选择 WeCan 的原因",
+    advantagesSubtitle: "结合法律经验与双语服务，全程陪伴您的案件进展。",
+    advantage1Title: "沟通清晰",
+    advantage1Text: "用通俗语言说明方案、时间与风险。",
+    advantage2Title: "策略聚焦",
+    advantage2Text: "根据您的目标制定专属策略。",
+    advantage3Title: "响应及时",
+    advantage3Text: "保持进度更新与双语答复。",
     processTitle: "清晰透明的服务路径",
     processText: "我们注重透明沟通，让您了解每一步需要什么、何时进行、如何推进。",
-    highlightTitle: "客户选择 WeCan 的原因",
+    highlightTitle: "客户信赖 WeCan",
     highlightText: "双语沟通迅速、准备充分、尊重每位客户。",
     step1Title: "初步咨询",
     step1Text: "评估案件事实、风险与重点。",
@@ -146,7 +170,8 @@ const translations = {
     contactOfficeTitle: "地址",
     contactOfficeNote: "附近停车便利。",
     footerText: "为移民、家庭与受伤客户提供专业法律服务。",
-    footerCall: "欢迎来电咨询："
+    footerCall: "欢迎来电咨询：",
+    mobileCall: "拨打 +1 626-558-9420"
   }
 };
 
