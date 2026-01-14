@@ -1,10 +1,10 @@
 :root {
   color-scheme: light;
-  --primary: #0f2c4c;
-  --accent: #c5a76a;
-  --text: #1d2433;
-  --muted: #5c6b82;
-  --bg: #f7f8fa;
+  --primary: #0b243f;
+  --accent: #c8a768;
+  --text: #1a2233;
+  --muted: #5a6a82;
+  --bg: #f5f7fa;
   --white: #ffffff;
 }
 
@@ -28,7 +28,7 @@ a {
 
 .site-header {
   background: var(--white);
-  border-bottom: 1px solid #e3e7ee;
+  border-bottom: 1px solid #e2e6ee;
   position: sticky;
   top: 0;
   z-index: 5;
@@ -41,10 +41,11 @@ a {
   justify-content: space-between;
   align-items: center;
   padding: 1.5rem 1.25rem;
+  gap: 1.5rem;
 }
 
 .logo span {
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   font-weight: 700;
   color: var(--primary);
 }
@@ -59,6 +60,7 @@ a {
   display: flex;
   gap: 1rem;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .call-now {
@@ -86,9 +88,9 @@ a {
 }
 
 .hero-content h1 {
-  font-size: 2.5rem;
+  font-size: 2.6rem;
   color: var(--primary);
-  margin: 1rem 0;
+  margin: 1rem 0 1.2rem;
 }
 
 .hero-text {
@@ -106,7 +108,7 @@ a {
 .hero-actions .primary {
   background: var(--primary);
   color: var(--white);
-  padding: 0.85rem 1.4rem;
+  padding: 0.9rem 1.6rem;
   border-radius: 6px;
   font-weight: 600;
   display: inline-block;
@@ -148,13 +150,13 @@ a {
 .card-contact {
   margin-top: 1.5rem;
   padding-top: 1rem;
-  border-top: 1px solid #e3e7ee;
+  border-top: 1px solid #e2e6ee;
   font-weight: 600;
 }
 
 .card-contact a {
   color: var(--primary);
-  font-size: 1.1rem;
+  font-size: 1.15rem;
 }
 
 .services {
@@ -186,9 +188,10 @@ a {
 }
 
 .service-grid article {
-  background: #f3f5f8;
-  padding: 1.5rem;
+  background: #f1f4f8;
+  padding: 1.6rem;
   border-radius: 12px;
+  border: 1px solid #e4e8f0;
 }
 
 .service-grid h3 {
@@ -219,6 +222,19 @@ a {
   color: var(--muted);
 }
 
+.highlight-box {
+  margin-top: 1.5rem;
+  background: #f9f5ee;
+  border-left: 4px solid var(--accent);
+  padding: 1rem 1.25rem;
+  border-radius: 10px;
+}
+
+.highlight-box p:first-child {
+  font-weight: 600;
+  color: var(--primary);
+}
+
 .trust-steps {
   display: grid;
   gap: 1.25rem;
@@ -243,6 +259,37 @@ a {
 
 .trust-steps p {
   color: var(--muted);
+}
+
+.contact {
+  background: var(--white);
+  padding: 3.5rem 1.25rem 4rem;
+}
+
+.contact-grid {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+
+.contact-grid div {
+  background: #f7f8fb;
+  padding: 1.5rem;
+  border-radius: 12px;
+  border: 1px solid #e4e8f0;
+}
+
+.contact-grid h3 {
+  color: var(--primary);
+  margin-bottom: 0.5rem;
+}
+
+.contact-link {
+  font-weight: 600;
+  color: var(--primary);
+  display: block;
 }
 
 .site-footer {
@@ -270,7 +317,6 @@ a {
   .navbar {
     flex-direction: column;
     align-items: flex-start;
-    gap: 1rem;
   }
 
   .hero-actions .primary {
