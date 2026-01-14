@@ -1,0 +1,9 @@
+{
+  "name": "wecan-firm",
+  "version": "1.0.0",
+  "description": "WeCan law firm website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
